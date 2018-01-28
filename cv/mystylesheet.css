@@ -1,5 +1,19 @@
+ 
+ body {
+    background-image: url("http://creativecrunk.com/wp-content/uploads/2015/01/Sunset-Free-Images-for-Web-Design.jpg");
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
+h1{
+    text-align: center;
+    
+}
 
+p{
+    color: white;
+}
 
 ul{
     list-style-type:none;
