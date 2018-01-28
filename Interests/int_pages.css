@@ -1,5 +1,6 @@
 #section1{
     background-color: rgb(238 ,0 ,90);
+    
 }
 
 #section2{
@@ -8,10 +9,26 @@
 
 #section3{
     background-color: rgb(51 ,153 ,204);
+    
 }
 
 .section{
     text-align: center;
     color: white;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
     
 }
+.section:hover{
+    border: 1px solid #777;
+}
+.section img{
+    width: 90%;
+    height: 90%;
+    
+    
+}
+
+
