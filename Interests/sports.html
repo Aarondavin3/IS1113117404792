@@ -1,12 +1,60 @@
-><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
+        <meta charset ="utf-8"/>
         <title>Sports</title>
-        <link rel = "stylesheet" href="../mystylesheet.css" type = "text/css"
+        <link rel = "stylesheet" href= "../mystylesheet.css" type = "text/css"/>
+        <link rel ="stylesheet" href = "sport.css" type="text/css"/>
+        
+        
         <!-- Adding bootstrap-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </head>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <!-- Page Piling-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+
+        <script type = "text/javascript" >
+          $(document).ready(function() {
+              $('#pagepiling').pagepiling({
+                 });
+          });
+	
+        </script>
+        
+        </head>
+
+        <body>
+            <div id="pagepiling">
+        	<div class="section" id="section1">
+        	<img src ="https://i.ytimg.com/vi/t_OZB7gZe9Q/maxresdefault.jpg">
+        	<h3 style ="text-align:center;color:black;">Surfing</h3>
+        	<p>I began surfing in the autumn when I joined the UCC Surf Club on their trip to Lahinch. A great weekend it was. I had surfed before but got a lot more interested after this trip. I am just back from the winter UCC surf trip in Taghazhout, Morocco. It was an unbelievable experience.The surfing was fantastic and some craic was had also. </p>
+        	</div>
+        	<div class="section" id="section2"> 
+        	<h3 style = "text-align:center;color:black;">Soccer</h3>
+        	<img src = "https://pbs.twimg.com/media/DUzjtPbW0AAYquX.jpg:large">
+        	<p>Active member of the UCC freshers team. Previosuly played for Wilton United but now playing my trade with the college. We are involved in the Munster Junior League, CUFL and we have the Harding Cup at the end of February</p>
+        	</div>
+        	
+
+        	<div class="section" id="section3">
+                  
+            <img src="http://birdsofpreycentre.co.uk/wp-content/uploads/2016/03/Photography-Camera-HD-Wallpaper1.jpg" style = "float:left;">
+            <h3 style="text-align:center;color:black;">Photography</h3>
+            <p>Have a keen interest in photography especially landscape. Got interest from my Dad who was a former photographer.</p>
+            	 <br/>
+            	 <br/>
+        	     <a href="../cv/homepage.html" class="btn btn-success">Home</a>
+        	</div>
+
+        </div>
+        
+    
+</body>
+    
 </html>

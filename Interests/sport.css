@@ -1,0 +1,43 @@
+#section1{
+    background-color: rgb(238 ,0 ,90);
+    
+}
+
+#section2{
+    background-color: rgb(44, 62, 80);
+    text-align: center;
+    font-size: 24pt;
+}
+
+#section3{
+    background-color: rgb(51 ,153 ,204);
+    
+}
+
+.section{
+    text-align: center;
+    color: white;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    
+}
+.section:hover{
+    border: 1px solid #777;
+}
+
+.section p{
+    text-align: center;
+    font-size: 11pt;
+}
+.section img{
+    width: 40%;
+    height: 40%;
+    float: right;
+  
+    
+}
+.section h{
+    color:black;
+}
