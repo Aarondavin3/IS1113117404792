@@ -1,0 +1,91 @@
+ 
+ html, body{
+     height: 100%;
+     
+ }
+ html {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/16/40/clouds-1840241_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+p{
+    color: white;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color:white;
+    text-align:center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: Blue;
+}
+
+.button {
+  border-radius: 2px;
+  background-color: Blue;
+  border: none;
+  Top: 50%;
+  Left: 50%;
+  color: Black;
+  text-align: center;
+  font-size: 28px;
+  padding: 5px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
