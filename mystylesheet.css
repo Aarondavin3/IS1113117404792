@@ -1,16 +1,18 @@
  
  html, body{
      height: 100%;
-     
+    margin-bottom:50px;
+
  }
  html {
-    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/16/40/clouds-1840241_1280.jpg");
+    background-image: url("https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
     background-repeat: no-repeat;
     background-size: cover;
     
     margin: 0;
     padding: 0;
 }
+
 
 h1{
     text-align: center;
@@ -25,6 +27,7 @@ ul{
     list-style-type:none;
     margin:0;
     padding:0;
+    width:100%;
     overflow:hidden;
     background-color: #333;
 }

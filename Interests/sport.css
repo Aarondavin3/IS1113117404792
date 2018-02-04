@@ -1,6 +1,13 @@
 #section1{
     background-color: rgb(238 ,0 ,90);
-    
+
+}
+#banner{
+    width:100
+    color:black;
+    border: solid thin black;
+    text-align:center;
+    background-color: rgb(238 ,0 ,90);
 }
 
 #section2{
@@ -23,6 +30,8 @@
     width: 180px;
     
 }
+
+
 .section:hover{
     border: 1px solid #777;
 }
@@ -38,6 +47,6 @@
   
     
 }
-.section h{
+.section h1{
     color:black;
 }
