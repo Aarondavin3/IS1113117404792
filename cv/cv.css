@@ -3,7 +3,7 @@ html, body{
     margin-bottom:50px;
 
  }
- body {
+body {
     background-image: url("http://www.htmldrive.net/edit_media/2011/201107/20110719/Full-background-webdevtuts/images/image1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,9 +26,6 @@ h1{
     text-align: center;
     
 }
-
-
-
 
 p{
     color: white;
@@ -61,4 +58,18 @@ li a:hover {
 
 .active {
     background-color: Blue;
+}
+footer{
+    position: absolute;
+    top:100%;
+    text-align:center;
+    left: 0%;
+    line-height: .8;
+    margin-top:0;
+    width:100%;
+    background-color: #333
+    
+}
+footer p{
+    margin-top: 0;
 }

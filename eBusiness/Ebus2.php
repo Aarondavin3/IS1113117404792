@@ -1,10 +1,15 @@
-<!DOCTYPE html>
+<?php
+// start the session
+session_start();
+?>
+
 <html>
     <head>
         <title>Enter Details</title>
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css"></head></PHP>
     </head>
     <body>
         <h4>Please enter your payment details</h4>
@@ -25,5 +30,10 @@
         </div>
         
         <script type="text/javascript" src="ebus2_validator.js"></script>
-    </body>
+        
+        <?php
+        //Set session variables
+        $_SESSION["total"] = $_POST["total"];
+        ?>
+        </body>
 </html>
