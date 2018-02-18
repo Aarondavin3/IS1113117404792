@@ -4,44 +4,144 @@
         <title>Select Product</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type = "text/javascript" src ="cost_calc.js"></script>
+        <style type = "text/css">
+        ul{
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            width:100%;
+            overflow:hidden;
+            background-color:#42d7f4 ;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color:black;
+    text-align:center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#d966ff ;
+}
+        
+        #maincontent {
+                        top:7em;
+                        left:25em;
+                        width:30em;
+                        height:30em;
+                        position:absolute;
+                        border-style:groove;
+                        
+        }
+        h2 {
+            text-align:center;
+        }
+        input[type=text] {
+                           border: 2px solid black;
+                           border-radius: 4px;
+                           text-align:center;
+}
+       button[type=submit] {
+                           background-color: #42d7f4;
+                           border-radius: 2px;
+                           border:none;
+                           color: black;
+                           padding: 5px;
+                           cursor: pointer;
+                           
+       }
+       button[type=submit]:hover {
+                          background-color:#80ffd4;
+                          color: White;
+       }
+       button {
+            background-color: #42d7f4;
+                           border-radius: 2px;
+                           border:none;
+                           color: black;
+                           padding: 5px;
+                           cursor: pointer;
+       }
+       button:hover {
+           background-color:#d966ff;
+           color:White;
+       }
+       
+        </style>
     </head>
     <body>
         <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css"></head></PHP>
-        <h4>Select A Product</h4>
-        <br/>
-        <form method ="POST" action = "Ebus2.php">
+       <ul>
+        <li><a class = "active" href = "#home">Home</a></li>
+        <li><a href= "cv/cv_page1.html">Curriculum Vitae</a></li>
+        <li><a href ="Interests/sports.html">Interests</a></li>
+        <li><a href ="Interests/travel.html">Travel</a></li>
+        <li><a href ="Interests/cloud_services.html">Cloud Services</a></li>
+        <li><a href = "eBusiness/Ebus1.php">eBusiness</a></li>
+        </ul>
+    
+        <h2>Select A Product</h2>
+        <div id ="maincontent">
+            <br>
+        <form method ="POST" >
             <label for = "salesforce">
             <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
             Salesforce @ $100
             </label>
-            <br/>
+            <br/><br>
+            <label for ="cloud9">
+                <input type = "radio" id ="cloud9" name = "product" onClick = "disablebtnProceed()"/>
+                Cloud 9 @ $200
+            </label>
+            <br><br>
             <label for= "aws">
                 <input type = "radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                AWS @ $300
+                Amazon Web Services @ $300
+            </label>
+            <br><br>
+            <label for ="Gmail">
+                <input type = "radio" id ="Gmail" name = "product" onClick = "disablebtnProceed()"/>
+                Gmail @ $400
             </label>
             
-            <br/>
-            <br/>
+            <br><br><br>
             <label for ="subtotal">
-                Sub Total
-                <input type = "text" id="subtotal" name="subtotal" value="0.00" readonly/>
+            <Strong> &nbsp;  Sub Total:</Strong> 
+              &nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" id="subtotal" name="subtotal" value="0.00" readonly/>
+            </label>
+            <br><br>
+            <label for = "discount">
+                <strong> Discount @ 5%</strong>
+                <input type = "text" id ="discount" name ="discount" readonly/>
+                <br> <strong> (-Discount)</strong>
+            </label>
+            <br><br>
+            <label for ="vat">
+                <strong> Vat @ 10%</strong>
+                <input type = "text" id ="vat" name ="vat" readonly />
             </label>
             
-            <br/>
+            <br><br>
             
             <label for ="total">
-                Total
-                <input type ="text" id="total" name = "total" value="0.00" readonly/>
+             <strong>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Total:</strong> 
+              &nbsp;&nbsp;&nbsp;&nbsp;<input type ="text" id="total" name = "total" value="0.00" readonly/>
             </label>
             
-            <br/>
+            <br><br>
             
-            <button type = "submit" id="btnProceed" disable>Add to Shopping Cart</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;  <button onClick="calcSub();calcDisVatTotal()">Calculate Cost</button>  &nbsp; &nbsp; <button type = "submit" id="btnProceed" disable>Add to Shopping Cart</button>
         </form>
         
         <br/>
-        <button onClick="calcSub()">Calculate Cost</button>
-        <a role = "button" href="Ebus1.php">Clear Choice</a>
         
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Ebus1.php"><button>Clear Choice</a></button
+        </div>
     </body>
 </html>

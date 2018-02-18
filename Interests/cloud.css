@@ -1,4 +1,4 @@
-ul{
+#navbar ul{
     list-style-type:none;
     margin:0;
     padding:0;
@@ -7,11 +7,11 @@ ul{
     background-color: #333;
 }
 
-li{
+#navbar li{
     float: left;
 }
 
-li a{
+#navbar li a{
     display: block;
     color:white;
     text-align:center;
@@ -19,7 +19,7 @@ li a{
     text-decoration: none;
 }
 
-li a:hover {
+#navbar li a:hover {
     background-color: #111;
 }
 
@@ -28,10 +28,15 @@ li a:hover {
 }
 h1{
     text-align: center;
+    font-family:  Arial;
+    color:red;
 }
 h3{
     text-align: center;
     text-decoration: underline;
+}
+h2{
+    text-align: center;
 }
 p{
     text-align: center;
@@ -39,4 +44,65 @@ p{
 img {
     height:8em;
     width:15em;
+}
+#SaaS img {
+    width:100%;
+}
+#SaaS_img img {
+    width:33em;
+    height:22em;
+}
+#PaaS img {
+    width: 100%;
+}
+#PaaS_img img {
+    width:33em;
+    height:22em;
+}
+#IaaS img {
+    width:100%;
+}
+#IaaS_img img {
+    width:33em;
+    height:22em;
+}
+#CaaS img {
+    width: 100%;
+}
+#CaaS_img img {
+    width:33em;
+    height:22em;
+}
+#ending img {
+    width:70em;
+    height:35em;
+}
+/* Cloud.html css */
+
+#content img {
+    height: 20em;
+    width:40em;
+    
+}
+#content ul {
+    list-style-type: circle;
+}
+
+#styling img {
+    height: 15em;
+    width:40em;
+    float:left;
+    border-style: ridge
+}
+ #styling button {
+     border-radius: 2px;
+     background-color: Blue;
+     border: none;
+     color: Black;
+     text-align: center;
+     font-size: 20px;
+     padding: 5px;
+     width: 160px;
+     cursor: pointer;
+     margin-left: 150px;
 }
