@@ -37,7 +37,6 @@ li a:hover {
                         height:30em;
                         position:absolute;
                         border-style:groove;
-                        
         }
         h2 {
             text-align:center;
@@ -91,47 +90,47 @@ li a:hover {
             <br>
         <form method ="POST" >
             <label for = "salesforce">
-            <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
             Salesforce @ $100
             </label>
             <br/><br>
             <label for ="cloud9">
-                <input type = "radio" id ="cloud9" name = "product" onClick = "disablebtnProceed()"/>
+               &nbsp;&nbsp;&nbsp;&nbsp;<input type = "radio" id ="cloud9" name = "product" onClick = "disablebtnProceed()"/>
                 Cloud 9 @ $200
             </label>
             <br><br>
             <label for= "aws">
-                <input type = "radio" id="aws" name="product" onClick="disablebtnProceed()"/>
+             &nbsp;&nbsp;&nbsp;&nbsp;<input type = "radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                 Amazon Web Services @ $300
             </label>
             <br><br>
             <label for ="Gmail">
-                <input type = "radio" id ="Gmail" name = "product" onClick = "disablebtnProceed()"/>
+              &nbsp;&nbsp;&nbsp;&nbsp;<input type = "radio" id ="Gmail" name = "product" onClick = "disablebtnProceed()"/>
                 Gmail @ $400
             </label>
             
             <br><br><br>
             <label for ="subtotal">
             <Strong> &nbsp;  Sub Total:</Strong> 
-              &nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" id="subtotal" name="subtotal" value="0.00" readonly/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type = "text" id="subtotal" name="subtotal" value="0.00" readonly/>
             </label>
             <br><br>
             <label for = "discount">
-                <strong> Discount @ 5%</strong>
+                <strong>&nbsp; Discount @ 5%:</strong>
                 <input type = "text" id ="discount" name ="discount" readonly/>
-                <br> <strong> (-Discount)</strong>
+                <br> <strong> &nbsp;&nbsp;(-Discount)</strong>
             </label>
             <br><br>
             <label for ="vat">
-                <strong> Vat @ 10%</strong>
-                <input type = "text" id ="vat" name ="vat" readonly />
+                <strong>&nbsp; Vat @ 10%:</strong>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type = "text" id ="vat" name ="vat" readonly />
             </label>
             
             <br><br>
             
             <label for ="total">
-             <strong>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Total:</strong> 
-              &nbsp;&nbsp;&nbsp;&nbsp;<input type ="text" id="total" name = "total" value="0.00" readonly/>
+             <strong>  &nbsp; Total:</strong> 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type ="text" id="total" name = "total" value="0.00" readonly/>
             </label>
             
             <br><br>

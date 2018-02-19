@@ -9,22 +9,75 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-         <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css"></head></PHP>
+         <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css">
+         <style type = "text/css">
+             #content {
+                  top:8em;
+                  left:25em;
+                  width:30em;
+                  height:30em;
+                  position:absolute;
+                  border-style:ridge;
+             }
+              ul{
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            width:100%;
+            overflow:hidden;
+            background-color:#42d7f4 ;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color:black;
+    text-align:center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#d966ff ;
+}
+         </style>
+         
+         
+         
+         </head></PHP>
     </head>
     <body>
-        <h4>Please enter your payment details</h4>
-        
-        
+        <ul>
+        <li><a class = "active" href = "#home">Home</a></li>
+        <li><a href= "cv/cv_page1.html">Curriculum Vitae</a></li>
+        <li><a href ="Interests/sports.html">Interests</a></li>
+        <li><a href ="Interests/travel.html">Travel</a></li>
+        <li><a href ="Interests/cloud_services.html">Cloud Services</a></li>
+        <li><a href = "eBusiness/Ebus1.php">eBusiness</a></li>
+        </ul>
+        <h2>Please enter your payment details</h2>
+        <div id ="content">
+        <br>
             <form action="Ebus3.php" method="POST">
-
-                    <label for="user_pin">PIN</label>
-                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+                    <br>
+                    <label for = "name">
+                        <strong> &nbsp; Name:</strong>
+                        <br>
+                        &nbsp;<input type ="text" id ="name" name = "name"/>
+                    </label>
+                    <br>
+                    &nbsp;&nbsp;<label for="user_pin"><strong>PIN:</strong></label>
+                    <br>
+                   &nbsp;<input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
 
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
             </form>
             
-            <br/>
+            <br>
             <button onClick="validateDetails()">Validate</button>
             
         </div>
@@ -35,5 +88,6 @@ session_start();
         //Set session variables
         $_SESSION["total"] = $_POST["total"];
         ?>
+        
         </body>
 </html>
