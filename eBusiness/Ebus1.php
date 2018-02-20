@@ -38,6 +38,21 @@ li a:hover {
                         position:absolute;
                         border-style:groove;
         }
+        #button1 {
+            top:22.5em;
+            left:3em;
+            position:absolute;
+        }
+        #button2 {
+            top:22.5em;
+            left:13em;
+            position:absolute;
+        }
+        #button3 {
+            top:25em;
+            left:9em;
+            position: absolute;
+        }
         h2 {
             text-align:center;
         }
@@ -46,8 +61,8 @@ li a:hover {
                            border-radius: 4px;
                            text-align:center;
 }
-       button[type=submit] {
-                           background-color: #42d7f4;
+       button[type=submit]:disabled {
+                           background-color: grey;
                            border-radius: 2px;
                            border:none;
                            color: black;
@@ -55,7 +70,7 @@ li a:hover {
                            cursor: pointer;
                            
        }
-       button[type=submit]:hover {
+       button[type=submit]:enabled {
                           background-color:#80ffd4;
                           color: White;
        }
@@ -88,9 +103,9 @@ li a:hover {
         <h2>Select A Product</h2>
         <div id ="maincontent">
             <br>
-        <form method ="POST" >
+        <form method ="POST" action ="Ebus2.php">
             <label for = "salesforce">
-            &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="salesforce" name="product"  onClick="disablebtnProceed()"/>
             Salesforce @ $100
             </label>
             <br/><br>
@@ -134,13 +149,20 @@ li a:hover {
             </label>
             
             <br><br>
-            
-        &nbsp;&nbsp;&nbsp;&nbsp;  <button onClick="calcSub();calcDisVatTotal()">Calculate Cost</button>  &nbsp; &nbsp; <button type = "submit" id="btnProceed" disable>Add to Shopping Cart</button>
-        </form>
+            <div id ="button1">
+            <button type = "submit" id="btnProceed" disable>Add to Shopping Cart</button>
+            </div>
+            </form> 
+            <div id ="button2">
+          <button onClick="calcSub();calcDisVatTotal()">Calculate Cost</button>
+          </div>
+          
+       
         
         <br/>
-        
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Ebus1.php"><button>Clear Choice</a></button
+        <div id ="button3">
+        <a href="Ebus1.php"><button>Clear Choice</a></button>
+        </div>
         </div>
     </body>
 </html>
