@@ -81,13 +81,10 @@ input[type=password] {
          </head></PHP>
     </head>
     <body>
-        <ul>
-        <li><a href ="../homepage.html">Home</a></li>
-        <li><a href= "cv/cv_page1.html">Curriculum Vitae</a></li>
-        <li><a href ="Interests/sports.html">Interests</a></li>
-        <li><a href ="Interests/travel.html">Travel</a></li>
+      <ul>
+        <li><a href = "Ebus1.php">Home</a></li>
         <li><a href ="Interests/cloud_services.html">Cloud Services</a></li>
-        <li><a class = "active" href = "eBusiness/Ebus2.php">eBusiness</a></li>
+        <li><a class = "active" href = "#PAYMENT">Payment Details</a></li>
         </ul>
         <h2>Please enter your payment details</h2>
         <div id ="content">

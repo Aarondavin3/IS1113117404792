@@ -4,14 +4,59 @@ session_start();
 <html>
     <head>
         <title>RECEIPT</title>
-         <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css"></head></PHP>
+         <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css">
+             <style type = "text/css">
+              ul{
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            width:100%;
+            overflow:hidden;
+            background-color:#42d7f4 ;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color:black;
+    text-align:center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#d966ff ;
+}
+.active {
+    background-color: #d966ff ;
+}
+                 #mainContent {
+                                top:8em;
+                                left:25em;
+                                width:30em;
+                                height:30em;
+                                position:absolute;
+                                border-style:groove;
+                 }
+             </style>
+         </head></PHP>
     </head>
     <body>
-        <h4>RECEIPT</h4>
+       <ul>
+        <li><a href = "Ebus1.php">Home</a></li>
+        <li><a href ="Interests/cloud_services.html">Cloud Services</a></li>
+        <li><a class = "active" href = "#RECEIPT">Purchase Receipt</a></li>
+        </ul>
+        <h1>Purchase Receipt</h1>
+        <div id = "mainContent">
         <?php
         //Echo session varaibles that were set to the previous page
         echo "Total Price is $" .$_SESSION["total"] . "."; 
         echo "Name:" .$_SESSION["email"] . ".";
         ?>
+        </div>
     </body>
 </html>

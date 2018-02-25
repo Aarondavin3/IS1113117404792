@@ -29,6 +29,9 @@ li a{
 li a:hover {
     background-color:#d966ff ;
 }
+.active {
+    background-color: #d966ff;
+}
         
         #maincontent {
                         top:7em;
@@ -87,17 +90,14 @@ li a:hover {
            color:White;
        }
        
+       
         </style>
     </head>
     <body>
         <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css"></head></PHP>
        <ul>
-        <li><a class = "active" href = "#home">Home</a></li>
-        <li><a href= "cv/cv_page1.html">Curriculum Vitae</a></li>
-        <li><a href ="Interests/sports.html">Interests</a></li>
-        <li><a href ="Interests/travel.html">Travel</a></li>
+        <li><a class = "active" href = "Ebus1.php">Home</a></li>
         <li><a href ="Interests/cloud_services.html">Cloud Services</a></li>
-        <li><a href = "eBusiness/Ebus1.php">eBusiness</a></li>
         </ul>
     
         <h2>Select A Product</h2>
