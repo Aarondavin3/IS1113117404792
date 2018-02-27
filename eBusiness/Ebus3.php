@@ -54,6 +54,7 @@ li a:hover {
         <div id = "mainContent">
         <?php
         //Echo session varaibles that were set to the previous page
+        echo "Name: " .$_SESSION["name"] . ".";
         echo "Total Price is $" .$_SESSION["total"] . "."; 
         echo "Name:" .$_SESSION["email"] . ".";
         ?>

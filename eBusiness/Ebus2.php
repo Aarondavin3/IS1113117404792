@@ -51,6 +51,11 @@ input[type=text] {
                            border-radius: 4px;
                            text-align:center;
 }
+input[type=email] {
+                           border: 2px solid blue;
+                           border-radius: 4px;
+                           text-align:center;
+}
 input[type=password] {
                            border: 2px solid blue;
                            border-radius: 4px;
@@ -90,7 +95,7 @@ input[type=password] {
         <div id ="content">
             <form action="Ebus3.php" method="POST">
                     <br>
-                    <label for = "name">
+                    <label for = "Firstname">
                         <strong> &nbsp; Name:</strong>
                         <br>
                         &nbsp;<input type ="text" id ="name" name = "name"/>
@@ -99,7 +104,7 @@ input[type=password] {
                     <label for "email">
                         <strong>&nbsp; Email:</strong>
                         <br>
-                        &nbsp;<input type = "text" id ="email" name="email"/>
+                        &nbsp;<input type = "email" id ="email" name="email"/>
                     </label>
                     <br><br>
                     &nbsp;&nbsp;<label for="user_pin"><strong>PIN:</strong></label>

@@ -7,7 +7,7 @@ body {
     padding:0;
     width:100%;
     overflow:hidden;
-    background-color: #333;
+    background-color:pink;
 }
 
 #navbar li{
@@ -16,7 +16,7 @@ body {
 
 #navbar li a{
     display: block;
-    color:white;
+    color:#0066ff;
     text-align:center;
     padding: 16px 18px;
     text-decoration: none;
@@ -27,7 +27,7 @@ body {
 }
 
 .active {
-    background-color: Blue;
+    background-color: yellow;
 }
 h1{
     text-align: center;
@@ -47,6 +47,11 @@ p{
 img {
     height:8em;
     width:15em;
+}
+#logo img {
+    height:5em;
+    width:8em;
+    
 }
 #SaaS img {
     width:100%;
