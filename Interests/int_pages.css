@@ -4,18 +4,34 @@
     background-size: cover;
     margin: 0;
     padding: 0;
+    text-align:center;
+    color:white;
+    font-size:20px;
     
 }
-h6 {
-    text-align: center;
-}
+
 
 #section2{
-    background-color: rgb(0, 0, 255) ;
+    background:url(https://cdn2.justwineapp.com/assets/article/2017/06/Aerial_Sunset_Vancouver.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    color:white;
+    font-size:20px;
+    
 }
 
 #section3{
-    background-color: rgb(51 ,153 ,204);
+    background:url(https://cdn.concreteplayground.com/content/uploads/2015/12/Surfing-Sydney.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    color:Black;
+    font-size:20px;
     
 }
 
