@@ -19,6 +19,11 @@ session_start();
                   position:absolute;
                   border-style:ridge;
              }
+             #Logo {
+            top:4em;
+            left:2em;
+            position: absolute;
+        }
               ul{
             list-style-type:none;
             margin:0;
@@ -91,6 +96,9 @@ input[type=password] {
         <li><a href ="Interests/cloud_services.html">Cloud Services</a></li>
         <li><a class = "active" href = "#PAYMENT">Payment Details</a></li>
         </ul>
+          <div id ="Logo">
+        <img src="https://logos.textgiraffe.com/logos/logo-name/Cloud-designstyle-cloud-m.png">
+    </div>
         <h2>Please enter your payment details</h2>
         <div id ="content">
             <form action="Ebus3.php" method="POST">

@@ -56,6 +56,11 @@ li a:hover {
             left:9em;
             position: absolute;
         }
+        #Logo {
+            top:4em;
+            left:2em;
+            position: absolute;
+        }
         h2 {
             text-align:center;
         }
@@ -99,7 +104,9 @@ li a:hover {
         <li><a class = "active" href = "Ebus1.php">Home</a></li>
         <li><a href ="Interests/cloud_services.html">Cloud Services</a></li>
         </ul>
-    
+    <div id ="Logo">
+        <img src="https://logos.textgiraffe.com/logos/logo-name/Cloud-designstyle-cloud-m.png">
+    </div>
         <h2>Select A Product</h2>
         <div id ="maincontent">
             <br>

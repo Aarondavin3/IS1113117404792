@@ -1,6 +1,13 @@
 #section1{
-    background-color: rgb(238 ,0 ,90);
+    background:url(https://lonelyplanetimages.imgix.net/mastheads/GettyImages-535829617_super.jpg?sharp=10&vib=20&w=1200);
+     background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
     
+}
+h6 {
+    text-align: center;
 }
 
 #section2{
