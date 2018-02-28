@@ -85,6 +85,14 @@ input[type=password] {
                            cursor: pointer;
                            
        }
+       button[onclick] {
+           background-color: #d966ff;
+                           border-radius: 2px;
+                           border:none;
+                           color: black;
+                           padding: 5px;
+                           cursor: pointer;
+       }
          </style>
          
          
@@ -102,7 +110,7 @@ input[type=password] {
     </div>
         <h2>Please enter your payment details</h2>
         <div id ="content">
-            <form  method="POST" action="Ebus3.php">
+            <form name = "myForm"  method="POST" action="Ebus3.php">
                     <br>
                     <label for = "name">
                         <strong> &nbsp; Name:</strong>
@@ -120,12 +128,12 @@ input[type=password] {
                     <br>
                    &nbsp;<input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
                     <br><br><br>
-                <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+                &nbsp;&nbsp;&nbsp;<button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
             </form>
             
-            <br>
-            <button onClick="validateDetails()">Validate</button>
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button onClick="validateDetails()">Validate</button>
             
         </div>
         
