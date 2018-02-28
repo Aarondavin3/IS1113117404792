@@ -1,12 +1,14 @@
 <?php
 session_start();
+$name = $_REQUEST['name'];
+$email =$_REQUEST['email'];
 ?>
 <html>
     <head>
         <title>RECEIPT</title>
          <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css">
              <style type = "text/css">
-              #Logo {
+              #Logo3 {
             top:4em;
             left:2em;
             position: absolute;
@@ -55,16 +57,17 @@ li a:hover {
         <li><a href ="Interests/cloud_services.html">Cloud Services</a></li>
         <li><a class = "active" href = "#RECEIPT">Purchase Receipt</a></li>
         </ul>
-          <div id ="Logo">
+          <div id ="Logo3">
         <img src="https://logos.textgiraffe.com/logos/logo-name/Cloud-designstyle-cloud-m.png">
     </div>
         <h1>Purchase Receipt</h1>
         <div id = "mainContent">
         <?php
         //Echo session varaibles that were set to the previous page
-        echo "Name: " .$_SESSION["name"] . ".";
-        echo "Total Price is $" .$_SESSION["total"] . "."; 
-        echo "Name:" .$_SESSION["email"] . ".";
+        echo("<strong>Name: </strong>". $name);
+        echo("<br><br><strong>Email: </strong>". $email);
+        echo "<br><br><strong>Total Price is $</strong>" .$_SESSION["total"] . "."; 
+        
         ?>
         </div>
     </body>

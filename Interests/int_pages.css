@@ -30,7 +30,7 @@
     margin: 0;
     padding: 0;
     text-align:center;
-    color:Black;
+    color:white;
     font-size:20px;
     
 }
@@ -53,5 +53,16 @@
     
     
 }
+button {
+    border-radius: 90%;
+     background-color: Pink;
+     border: none;
+     color: Black;
+     text-align: center;
+     font-size: 20px;
+     padding: 3px;
+     width: 100px;
+     cursor: pointer;
 
+}
 

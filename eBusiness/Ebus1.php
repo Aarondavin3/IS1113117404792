@@ -56,7 +56,7 @@ li a:hover {
             left:9em;
             position: absolute;
         }
-        #Logo {
+        #Logo1 {
             top:4em;
             left:2em;
             position: absolute;
@@ -104,7 +104,7 @@ li a:hover {
         <li><a class = "active" href = "Ebus1.php">Home</a></li>
         <li><a href ="Interests/cloud_services.html">Cloud Services</a></li>
         </ul>
-    <div id ="Logo">
+    <div id ="Logo1">
         <img src="https://logos.textgiraffe.com/logos/logo-name/Cloud-designstyle-cloud-m.png">
     </div>
         <h2>Select A Product</h2>
@@ -154,7 +154,7 @@ li a:hover {
              <strong>  &nbsp; Total:</strong> 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type ="text" id="total" name = "total" value="0.00" readonly/>
             </label>
-            
+          
             <br><br>
             <div id ="button1">
             <button type = "submit" id="btnProceed" disable>Add to Shopping Cart</button>

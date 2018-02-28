@@ -9,6 +9,7 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <script type="text/javascript" src="ebus2_validator.js"></script>
          <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css">
          <style type = "text/css">
              #content {
@@ -19,7 +20,7 @@ session_start();
                   position:absolute;
                   border-style:ridge;
              }
-             #Logo {
+             #Logo2 {
             top:4em;
             left:2em;
             position: absolute;
@@ -96,17 +97,17 @@ input[type=password] {
         <li><a href ="Interests/cloud_services.html">Cloud Services</a></li>
         <li><a class = "active" href = "#PAYMENT">Payment Details</a></li>
         </ul>
-          <div id ="Logo">
+          <div id ="Logo2">
         <img src="https://logos.textgiraffe.com/logos/logo-name/Cloud-designstyle-cloud-m.png">
     </div>
         <h2>Please enter your payment details</h2>
         <div id ="content">
-            <form action="Ebus3.php" method="POST">
+            <form  method="POST" action="Ebus3.php">
                     <br>
-                    <label for = "Firstname">
+                    <label for = "name">
                         <strong> &nbsp; Name:</strong>
                         <br>
-                        &nbsp;<input type ="text" id ="name" name = "name"/>
+                        &nbsp;<input type ='text' id ="name" name = "name"/>
                     </label>
                     <br><br>
                     <label for "email">
@@ -128,12 +129,12 @@ input[type=password] {
             
         </div>
         
-        <script type="text/javascript" src="ebus2_validator.js"></script>
+       
         
         <?php
         //Set session variables
         $_SESSION["total"] = $_POST["total"];
-        $_SESSION["email"] = $_POST["email"];
+        $_SESSION["name"] = $_POST["name"];
         ?>
         
         </body>
