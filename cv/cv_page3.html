@@ -4,13 +4,15 @@
         <title>Work Experience</title>
         <link rel = "stylesheet" href="cv.css" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-        <!-- Adding Bootstrap-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+       
         
         <style type ="text/css">
+        #Clinic {
+            position:absolute;
+            top:8em;
+            left:1em;
+            width:90%;
+        }
             #work{
             top:15em;
             left:30em;
@@ -19,6 +21,30 @@
             height:90%;
             
             position:absolute;
+            }
+            #img {
+                position: absolute;
+                top:16em;
+                left:1em;
+                
+            }
+            #homebutton {
+                position:absolute;
+                top:36em;
+                left:36em;
+            }
+            #interestbutton {
+                position:absolute;
+                top:36em;
+                left:42em;
+            }
+            button {
+                 background-color: Pink;
+                           border-radius: 10px;
+                           border:none;
+                           color: black;
+                           padding: 16px;
+                           cursor: pointer;
             }
             footer{
     position: absolute;
@@ -46,9 +72,12 @@ footer p{
         <li><a href ="../Interests/travel.html">Travel</a></li>
         </ul>
         
-          <h4><strong>Work Experience</strong></h4><hr size ="12"/>
+          <h1><strong>Work Experience</strong></h1><hr/><br>
           
-        <p><strong><i class="fa fa-briefcase"></i> 2015-Present: </strong> Part time Administration work at Clermont Clinic in Douglas. This invovlves handling patient's files and scanning them onto the computer database system. Patient files must also be shredded for legal purposes.</p>
+          <div id ="Clinic">
+        <p><strong><i class="fa fa-briefcase"></i> 2015-Present: </strong> Part time Administration work at Clermont Clinic in Douglas. This invovlves handling patient's files and scanning them onto the computer database system. 
+        Patient files must also be shredded for legal purposes.</p>
+        </div>
             <br>
         <div id ="work">
             <p><strong>4th Year work Experience:</strong> Carried out my work expierence in the Mardyke Arena and also Dell EMC.</p>
@@ -57,10 +86,19 @@ footer p{
             <p><strong>-</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cleaned the gym area and pool </p>
             <p><strong>-</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Learned how to measure the pH of chlorine in the pool  </p>
             <p><strong>Dell EMC</strong> During my week in EMC I Learned about what goes on in EMC and also started developing a basic application.</p>
-            <a href="../homepage.html" class="btn btn-success" style ="margin-left:500px;">Home</a>
-            <br><br>
-            <a href="../Interests/sports.html" class = "btn btn-success" style ="margin-left:500px;">Interests</a>
+            
         </div>
+        <div id ="homebutton">
+           <form method ="get" action ="../homepage.html">
+               <button type ="submit">Home</button>
+           </form>
+        </div>
+        <div id ="interestbutton">
+            <form method ="get" action = "../Interests/sports.html">
+                <button type ="submit">Interests</button>
+            </form>
+        </div>
+        
         <div id = "img">
             <img src="http://www.joda.ie/TouchAppResources/clients/joda/images/categories/483/gallery/large_483_joda_1454927340.jpg">
         </div>

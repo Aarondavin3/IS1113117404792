@@ -67,8 +67,10 @@ li a:hover {
         echo("<strong>Name: </strong>". $name);
         echo("<br><br><strong>Email: </strong>". $email);
         echo "<br><br><strong>Total Price is $</strong>" .$_SESSION["total"] . "."; 
+        echo "<br><br> Product Selected: " .$_SESSION["product"] . ".";
         
         ?>
+        <p> Congratulations</p>
         </div>
     </body>
 </html>

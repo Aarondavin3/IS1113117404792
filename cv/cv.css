@@ -7,11 +7,10 @@ body {
     background-image: url("http://www.htmldrive.net/edit_media/2011/201107/20110719/Full-background-webdevtuts/images/image1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height:100%;
-    width:100%;
+
     
-    top:0;
-    left:0;
+    
+ 
     
 }
 
@@ -25,9 +24,13 @@ h1{
     text-align: center;
     
 }
+h2 {
+    text-align:center;
+}
 
 p{
     color: white;
+    font-size:17px;
 }
 
 ul{

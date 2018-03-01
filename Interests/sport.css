@@ -50,3 +50,11 @@
 .section h1{
     color:black;
 }
+button {
+                 background-color: Pink;
+                           border-radius: 10px;
+                           border:none;
+                           color: black;
+                           padding: 16px;
+                           cursor: pointer;
+            }

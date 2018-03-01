@@ -5,6 +5,7 @@ function validateDetails(){
     var pin;
     var FirstName;
     var email;
+
     
     pin = document.getElementById("user_pin").value;
     FirstName = document.forms["myForm"]["name"].value;

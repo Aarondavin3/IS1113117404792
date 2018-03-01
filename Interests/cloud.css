@@ -1,7 +1,7 @@
 body {
     background-color: #ccf5ff;
 }
-#navbar ul{
+ ul{
     list-style-type:none;
     margin:0;
     padding:0;
@@ -10,11 +10,11 @@ body {
     background-color:pink;
 }
 
-#navbar li{
+ li{
     float: left;
 }
 
-#navbar li a{
+ li a{
     display: block;
     color:#0066ff;
     text-align:center;
@@ -22,7 +22,7 @@ body {
     text-decoration: none;
 }
 
-#navbar li a:hover {
+ li a:hover {
     background-color: #111;
 }
 
