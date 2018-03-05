@@ -1,41 +1,272 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8"/>
         <title> Cloud Services</title>
-        <link rel = "stylesheet" href="Interests/cloud.css" type = "text/css"/>
+        <style type ="text/css">
+            #Heading {
+                position:absolute;
+                top:1em;
+                left:33em;
+                text-align:center;
+            }
+             #Heading p {
+                position:absolute;
+                top:5em;
+                left:-23em;
+                width:1000px;
+                font-size:14pt;
+            }
+            #Heading img {
+                position:absolute;
+                top:12em;
+                left:-12em;
+                width:600px;
+                height:250px;
+                  
+            }
+            #heading2 {
+                position:absolute;
+                
+                top:1em;
+                left:30em;
+                text-align:center;
+                color:white;
+            }
+            #heading2 ol {
+                position:absolute;
+                top:4em;
+                left:-15em;
+                width:250%;
+                font-size:14pt;
+                color:white;
+            }
+            #heading3 {
+                position:absolute;
+                top:0em;
+                left:18em;
+                color:black;
+            }
+            #number1 {
+                top:4em;
+                left:5em;
+                position:absolute;
+                color:pink;
+                font-size:14pt;
+            }
+            #number1 img {
+                top:0em;
+                left:6em;
+                position:absolute;
+                
+            }
+            #number2{
+                top:8em;
+                left:5em;
+                position:absolute;
+                color:pink;
+                font-size:14pt;
+            }
+            #number2 img {
+                top:0em;
+                left:10em;
+                position:absolute;
+                
+            }
+            #number3{
+                top:12.5em;
+                left:5em;
+                position:absolute;
+                color:pink;
+                font-size:14pt;
+            }
+            #number3 img {
+                top:0em;
+                left:7em;
+                position:absolute;
+            }
+            #number4{
+                top:18em;
+                left:5em;
+                position:absolute;
+                color:pink;
+                font-size:14pt;
+            }
+            #number4 img {
+                top:-1em;
+                left:7em;
+                position:absolute;
+            }
+             #number5{
+                top:24em;
+                left:5em;
+                position:absolute;
+                color:pink;
+                font-size:14pt;
+            }
+            #number5 img {
+                top:-0.5em;
+                left:7em;
+                position:absolute;
+            }
+             #number6{
+                top:4em;
+                left:35em;
+                position:absolute;
+                color:pink;
+                font-size:14pt;
+            }
+            #number6 img {
+                top:0em;
+                left:7em;
+                position:absolute;
+            }
+             #number7{
+                top:9em;
+                left:35em;
+                position:absolute;
+                color:pink;
+                font-size:14pt;
+            }
+            #number7 img {
+                top:-0.5em;
+                left:7em;
+                position:absolute;
+            }
+             #number8{
+                top:14em;
+                left:35em;
+                position:absolute;
+                color:pink;
+                font-size:14pt;
+            }
+            #number8 img {
+                top:-0.5em;
+                left:7em;
+                position:absolute;
+            }
+            #number9{
+                top:19em;
+                left:35em;
+                position:absolute;
+                color:pink;
+                font-size:14pt;
+            }
+            #number9 img {
+                top:-0.5em;
+                left:7em;
+                position:absolute;
+            }
+             #number10{
+                top:24em;
+                left:35em;
+                position:absolute;
+                color:pink;
+                font-size:14pt;
+            }
+            #number10 img {
+                top:-0.5em;
+                left:7em;
+                position:absolute;
+            }
+            #button {
+                position:absolute;
+                top:17em;
+                left:65em;
+            }
+        </style>
+       
+        <link rel ="stylesheet" href ="Interests/cloudPilling.css" type ="text/css"/>
+          <!-- Adding bootstrap-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        
+        <!-- Page Piling-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+
+        <script type = "text/javascript" >
+          $(document).ready(function() {
+              $('#pagepiling').pagepiling({
+                 });
+          });
+	
+        </script>
     </head>
     <body>
-        <div id ="navbar">
-         <ul>
-        <li><a href = "Interests/cloud_services.html">Home</a></li>
-        <li><a class="active" href ="cloud.html">About</a></li>
-        <li><a href = "eBusiness/Ebus_homepage.html">Products</a></li>
-        </ul>
-        </div>
-        
-        <div id = "content">
-        <h1><strong> Cloud Services</strong></h1>
-       <hr/>
-        <h2>About:</h2>
-        
-        <p>First of all, cloud computing is a general term for the delivery of hosted services over the internet. The benefits of cloud computing are evident. Pay per use and elasticity are only a select few. Companies can scale up as computing needs increase and scale down again as demands decrease.
-       <br>
-       <img src ="http://www.quotecolo.com/wp-content/uploads/2015/12/what-is-cloud-computing.png"></p>
-       
-       <ul>
-           <li>Cloud services that a service provider offers to multiple customers through the internet are reffered to as public cloud services. SaaS, PaaS and IaaS can be said to be providing public cloud-based services. </li>
-           <br>
-           <li>In contrast, private cloud services are not made available to individual or corporate users/subscribers. Private cloud-based services use technologies associated with public clouds but private cloud run on an organisation's own infrastructure</li>
-           <br>
-           <li>Cloud services are built, operated and managed by a cloud service provider, which works to ensure end-to-end availability, reliability and security of the cloud.</li>
-       </ul>
-       </div>
-       <div id = "styling">
-           <img src = "http://www.a-one.com.cy/wp-content/uploads/2014/03/cloud-services.jpg">
-           <br>
-          <a href="Interests/cloud_services.html"><button>Back to Cloud Home</button></a>
-       </div>
+      <div id ="pagepiling">
+          <div class ="section" id ="section1">
+              <div id="Heading">
+              <h1>Cloud Services</h1>
+               <p>
+                  A cloud service is any service made available to users on demand via the Internet from a cloud computing provider's servers as opposed to being provided from a company's own on-premises servers. 
+              </p>
+              <img src ="https://thumbs.gfycat.com/DevotedEthicalFlyingfox-max-1mb.gif">
+              </div>
+              
+          </div>
+          <div class ="section" id ="section2">
+              <div id ="heading2">
+                  <h1>Why use Cloud Services?</h1>
+                      <ol>
+                         <li><strong>Flexibility:&nbsp;</strong>Cloud-based services are ideal for businesses with growing or fluctuating bandwidth demands.</li><br><br>
+                         <li><strong>Automatic software updates:&nbsp;</strong>The beauty of cloud computing is that the servers are off-premise, out of sight and out of your hair.
+                         Suppliers take care of them for you and roll out regular software updates.</li><br><br>
+                         <li><strong>Work from anywhere:</strong>With cloud computing, if you’ve got an internet connection you can be at work. And with most serious cloud services offering mobile apps, you’re not restricted by which device you’ve got to hand.</li>
+                      </ol>
+              </div>
+          </div>
+          <div class ="section" id ="section3">
+              <div id ="heading3">
+              <h1>The Top 10 Cloud Computing Service Providers in 2017</h1>
+               </div>
+              
+              <div id ="number1">
+                  <p>1.Mircrosoft&nbsp; <img src="http://www.nimbus-logic.com/wp-content/uploads/2017/01/Microsoft-Azure_logo.png" style ="width:100px;width:150px;"></p>
+                  </div>
+                  <div id ="number2">
+                 <p>2.Amazon Web Service &nbsp;<img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/2000px-AmazonWebservices_Logo.svg.png" style ="width:100px;width:150px;"></p>
+                 </div>
+                 <div id ="number3">
+                 <p>3.Salesforce &nbsp;<img src="http://www.stickpng.com/assets/images/58482f67cef1014c0b5e4a81.png" style ="height:60px;width:150px;"></p>
+                 </div>
+                 <div id ="number4">
+                 <p>4.IBM &nbsp;<img src="https://xebialabs.com/assets/files/logos/ibmcloudlogo.png" style ="height:80px;width:150px;"></p>
+                 </div>
+                 <div id ="number5">
+                     <p>5.Google &nbsp;<img src="https://cdn-images-1.medium.com/max/1502/1*WE-EQFubMHMnMv-bPIW5SA.png" style ="height:100px;width:150px;"></p>
+                 </div>
+                 <div id ="number6">
+                     <p>6.SAP &nbsp; <img src="https://www.cloudfoundry.org/wp-content/uploads/2017/01/SAP_grad_R_pref.png" style ="height:60px;width:150px;"></p>
+                 </div>
+                 <div id ="number7">
+                     <p>7.Oracle &nbsp; <img src ="https://www.interxion.com/globalassets/_images/logos/partner/colour_200/oraclecloud.png" style ="height:80px;width:150px;"></p>
+                 </div>
+                 <div id ="number8">
+                     <p>8.Workday &nbsp;<img src ="http://logos-download.com/wp-content/uploads/2016/12/Workday_logo_logotype.png" style ="height:80px;width:150px;"></p>
+                 </div>
+                 <div id ="number9">
+                     <p>9.ServiceNow &nbsp; <img src="https://www.beyondtrust.com/wp-content/uploads/partner-servicenow-300x186.png" style ="height:80px;width:150px;"></p>
+                 </div>
+                 <div id ="number10">
+                     <p>10.VMware &nbsp; <img src ="http://www.stickpng.com/assets/images/58482af2cef1014c0b5e4a20.png" style ="height:80px;width:150px;"> </p>
+                 </div>
+              
+              <div id ="button">
+                  <form method ="get" action="Interests/cloud_services.html">
+                    <button class="button"> Cloud Services</button>
+                </form>
+              </div>
+             
+              </div>
+          </div>
       
+           
+         
+       
       
     </body>
 </html>

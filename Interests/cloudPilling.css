@@ -1,0 +1,34 @@
+#section1{
+    background:url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding:0;
+    
+}
+
+#section2 {
+    background:url(https://images.pexels.com/photos/267507/pexels-photo-267507.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb);
+     background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding:0;
+}
+
+#section3 {
+    background:url(https://images.pexels.com/photos/880871/pexels-photo-880871.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding:0;
+    
+    
+}
+ button {
+                 background-color: Pink;
+                           border-radius: 10px;
+                           border:none;
+                           color: black;
+                           padding: 16px;
+                           cursor: pointer;
+            }
