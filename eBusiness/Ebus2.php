@@ -1,6 +1,7 @@
 <?php
 // start the session
 session_start();
+
 ?>
 
 <html>
@@ -142,7 +143,7 @@ input[type=password] {
         <?php
         //Set session variables
         $_SESSION["total"] = $_POST["total"];
-        $_SESSION["product"] = $_POST["product"];
+        
         ?>
         
         </body>
