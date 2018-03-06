@@ -21,6 +21,7 @@ h1{
 p{
     color: white;
 }
+ /*  css for the Navbar which changes color when you hover over it*/
 
 ul{
     list-style-type:none;
@@ -50,6 +51,7 @@ li a:hover {
 .active {
     background-color: Blue;
 }
+ /* Button css for the Learn More button which has a transition when you hover the mouse over it*/
 
 .button {
   border-radius: 2px;
@@ -90,6 +92,7 @@ li a:hover {
   opacity: 1;
   right: 0;
 }
+ /* Footer Css */
 footer{
     position: absolute;
     top:119%;

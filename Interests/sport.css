@@ -50,6 +50,7 @@
 .section h1{
     color:black;
 }
+ /* Button css for the form buttons */
 button {
                  background-color: Pink;
                            border-radius: 10px;

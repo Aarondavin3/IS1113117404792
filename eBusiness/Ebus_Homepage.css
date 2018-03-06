@@ -6,7 +6,7 @@ html {
     padding: 0;
     min-height:100%;
 }
-
+/* Button css for the Learn More button which has a transition when you hover the mouse over it*/
 .button {
   border-radius: 2px;
   background-color: Pink;

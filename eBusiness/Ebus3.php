@@ -59,6 +59,18 @@ li a:hover {
                            padding: 16px;
                            cursor: pointer;
                  }
+                 #congrats {
+                     position:absolute;
+                     top:6em;
+                     left:0.5em;
+                     font-size:15pt;
+                     color:white;
+                 }
+                 #congrats img {
+                     position:absolute;
+                     top:11.5em;
+                     left:0.5em;
+                 }
              </style>
          </head></PHP>
     </head>
@@ -78,9 +90,15 @@ li a:hover {
         echo("<strong>Name: </strong>". $name);
         echo("<br><br><strong>Email: </strong>". $email);
         echo "<br><br><strong>Total Price is $</strong>" .$_SESSION["total"] . "."; 
+         
         
         ?>
-        
+        <div id ="congrats">
+          <p> Congratulations your order has been processed. An email has been sent to your account.</p> 
+          <br><br>
+        <p style ="font-size:20pt;color:Purple"> Thanks for shopping with The Cloud Vendors</p>
+        <img src ="http://payload535.cargocollective.com/1/17/569900/13012841/Thanks-gif.gif" style = "height:120px;width:400px">
+        </div>
         <div id ="button">
             <form method = "get" action="../homepage.html" >
                 <button type ="submit">Back to Homepage</button>
