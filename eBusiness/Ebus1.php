@@ -102,7 +102,7 @@ li a:hover {
         <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css"></head></PHP>
        <ul>
         <li><a class = "active" href = "Ebus1.php">Home</a></li>
-        <li><a href ="Interests/cloud_services.html">Cloud Services</a></li>
+        <li><a href ="../Interests/cloud_services.html">Cloud Services</a></li>
         </ul>
     <div id ="Logo1">
         <img src="https://logos.textgiraffe.com/logos/logo-name/Cloud-designstyle-cloud-m.png">

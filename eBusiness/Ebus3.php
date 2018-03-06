@@ -48,6 +48,17 @@ li a:hover {
                                 position:absolute;
                                 border-style:groove;
                  }
+                 #button button {
+                     position:absolute;
+                top:40em;
+                left:15em;
+                background-color: Pink;
+                           border-radius: 10px;
+                           border:none;
+                           color: black;
+                           padding: 16px;
+                           cursor: pointer;
+                 }
              </style>
          </head></PHP>
     </head>
@@ -69,6 +80,12 @@ li a:hover {
         echo "<br><br><strong>Total Price is $</strong>" .$_SESSION["total"] . "."; 
         
         ?>
+        
+        <div id ="button">
+            <form method = "get" action="../homepage.html" >
+                <button type ="submit">Back to Homepage</button>
+            </form>
+        </div>
         </div>
     </body>
 </html>

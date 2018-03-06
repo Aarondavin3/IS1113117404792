@@ -103,7 +103,7 @@ input[type=password] {
     <body>
       <ul>
         <li><a href = "Ebus1.php">Home</a></li>
-        <li><a href ="Interests/cloud_services.html">Cloud Services</a></li>
+        <li><a href ="../Interests/cloud_services.html">Cloud Services</a></li>
         <li><a class = "active" href = "#PAYMENT">Payment Details</a></li>
         </ul>
           <div id ="Logo2">
