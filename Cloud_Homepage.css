@@ -1,0 +1,89 @@
+.bg  {
+    background:url(https://images.pexels.com/photos/163891/italy-sicily-sea-ocean-163891.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:400px;
+    width:100%;
+    top:0em;
+    left:0em;
+    position:absolute;
+    border-bottom-style:ridge;
+     
+    
+   
+  
+}
+
+ ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    width:100%;
+    overflow:hidden;
+    background-color:pink;
+}
+
+ li{
+    float: left;
+}
+
+ li a{
+    display: block;
+    color:#0066ff;
+    text-align:center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+ li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: yellow;
+}
+h1 {
+    text-align:center;
+    color:white;
+    font-size:28pt;
+}
+h3{
+    color:Pink;
+    font-size: 18pt;
+    text-align:center;
+}
+h4 {
+    text-align:center;
+    text-decoration:underline;
+}
+p {
+    color:white;
+}
+button {
+                 background-color: #42f4c5;
+                           border-radius: 10px;
+                           border:none;
+                           color: black;
+                           padding: 16px;
+                           cursor: pointer;
+            }
+footer{
+       position: absolute;
+       top:145%;
+       text-align:center;
+     left: 0%;
+    line-height: .8;
+    margin-top:0;
+    width:98%;
+    background-color: #e6e6e6;
+    padding:10px;
+    
+}
+ footer button {
+                 background-color: black;
+                           border-radius: 10px;
+                           border:none;
+                           color: White;
+                           padding: 16px;
+                           cursor: pointer;
+            }
