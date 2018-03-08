@@ -51,7 +51,6 @@ li a:hover {
                  #button button {
                      position:absolute;
                 top:40em;
-                left:15em;
                 background-color: Pink;
                            border-radius: 10px;
                            border:none;
