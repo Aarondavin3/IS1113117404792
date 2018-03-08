@@ -5,95 +5,95 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type = "text/javascript" src ="cost_calc.js"></script>
         <style type = "text/css">
-        ul{
-            list-style-type:none;
-            margin:0;
-            padding:0;
-            width:100%;
-            overflow:hidden;
-            background-color:#42d7f4 ;
-}
+            ul{
+                list-style-type:none;
+                margin:0;
+                padding:0;
+                width:100%;
+                overflow:hidden;
+                background-color:#42d7f4 ;
+    }
 
-li{
-    float: left;
-}
-
-li a{
-    display: block;
-    color:black;
-    text-align:center;
-    padding: 16px 18px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color:#d966ff ;
-}
-.active {
-    background-color: #d966ff;
-}
-        
-        #maincontent {
-                        top:7em;
-                        left:25em;
-                        width:30em;
-                        height:30em;
+            li{
+                float: left;
+            }
+            
+            li a{
+                display: block;
+                color:black;
+                text-align:center;
+                padding: 16px 18px;
+                text-decoration: none;
+            }
+            
+            li a:hover {
+                background-color:#d966ff ;
+            }
+            .active {
+                background-color: #d966ff;
+            }
+                    
+                    #maincontent {
+                                    top:7em;
+                                    left:25em;
+                                    width:30em;
+                                    height:30em;
+                                    position:absolute;
+                                    border-style:groove;
+                    }
+                    #button1 {
+                        top:22.5em;
+                        left:3em;
                         position:absolute;
-                        border-style:groove;
-        }
-        #button1 {
-            top:22.5em;
-            left:3em;
-            position:absolute;
-        }
-        #button2 {
-            top:22.5em;
-            left:13em;
-            position:absolute;
-        }
-        #button3 {
-            top:25em;
-            left:9em;
-            position: absolute;
-        }
-        #Logo1 {
-            top:4em;
-            left:2em;
-            position: absolute;
-        }
-        h2 {
-            text-align:center;
-        }
-        input[type=text] {
+                    }
+                    #button2 {
+                        top:22.5em;
+                        left:13em;
+                        position:absolute;
+                    }
+                    #button3 {
+                        top:25em;
+                        left:9em;
+                        position: absolute;
+                    }
+                    #Logo1 {
+                        top:4em;
+                        left:2em;
+                        position: absolute;
+                    }
+                h2 {
+                        text-align:center;
+                    }
+                input[type=text] {
                            border: 2px solid black;
                            border-radius: 4px;
                            text-align:center;
-}
-       button[type=submit]:disabled {
-                           background-color: grey;
-                           border-radius: 2px;
-                           border:none;
-                           color: black;
-                           padding: 5px;
-                           cursor: pointer;
-                           
-       }
-       button[type=submit]:enabled {
-                          background-color:#80ffd4;
-                          color: White;
-       }
-       button {
-            background-color: #42d7f4;
-                           border-radius: 2px;
-                           border:none;
-                           color: black;
-                           padding: 5px;
-                           cursor: pointer;
-       }
-       button:hover {
-           background-color:#d966ff;
-           color:White;
-       }
+            }
+                button[type=submit]:disabled {
+                            background-color: grey;
+                            border-radius: 2px;
+                            border:none;
+                            color: black;
+                            padding: 5px;
+                            cursor: pointer;
+                                       
+                   }
+                button[type=submit]:enabled {
+                                background-color:#80ffd4;
+                                color: White;
+                   }
+                button {
+                        background-color: #42d7f4;
+                        border-radius: 2px;
+                        border:none;
+                        color: black;
+                        padding: 5px;
+                        cursor: pointer;
+                   }
+                button:hover {
+                       background-color:#d966ff;
+                       color:White;
+                   }
        
        
         </style>
@@ -101,14 +101,16 @@ li a:hover {
     <body>
         <PHP><head><link href="Ebus.css" rel="stylesheet" type="text/css"></head></PHP>
        <ul>
-        <li><a class = "active" href = "Ebus1.php">Home</a></li>
-        <li><a href ="../Interests/cloud_services.html">Cloud Services</a></li>
+            <li><a class = "active" href = "Ebus1.php">Home</a></li>
+            <li><a href ="../Interests/cloud_services.html">The Cloud Vendors</a></li>
+            <li><a href="../cloud.html">Cloud Services</a></li>
+            <li style ="float:right"><a href ="../cloud_homepage.html">Cloud Home</a></li>
         </ul>
     <div id ="Logo1">
         <img src="https://logos.textgiraffe.com/logos/logo-name/Cloud-designstyle-cloud-m.png">
     </div>
         <h2>Select A Product</h2>
-        <div id ="maincontent">
+    <div id ="maincontent">
             <br>
         <form method ="POST" action ="Ebus2.php">
             <label for = "salesforce">

@@ -22,78 +22,78 @@ session_start();
                   border-style:ridge;
              }
              #Logo2 {
-            top:4em;
-            left:2em;
-            position: absolute;
+                top:4em;
+                left:2em;
+                position: absolute;
         }
               ul{
-            list-style-type:none;
-            margin:0;
-            padding:0;
-            width:100%;
-            overflow:hidden;
-            background-color:#42d7f4 ;
+                list-style-type:none;
+                margin:0;
+                padding:0;
+                width:100%;
+                overflow:hidden;
+                background-color:#42d7f4 ;
 }
 
-li{
-    float: left;
-}
-
-li a{
-    display: block;
-    color:black;
-    text-align:center;
-    padding: 16px 18px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color:#d966ff ;
-}
-.active {
-    background-color: #d966ff;
-}
-input[type=text] {
-                           border: 2px solid blue;
-                           border-radius: 4px;
-                           text-align:center;
-}
-input[type=email] {
-                           border: 2px solid blue;
-                           border-radius: 4px;
-                           text-align:center;
-}
-input[type=password] {
-                           border: 2px solid blue;
-                           border-radius: 4px;
-                           text-align:center;
-}
- button[type=submit]:disabled {
-                           background-color: grey;
-                           border-radius: 2px;
-                           border:none;
-                           color: black;
-                           padding: 5px;
-                           cursor: pointer;
-                           
-       }
-        button[type=submit]:enabled {
-                           background-color: #42d7f4;
-                           border-radius: 2px;
-                           border:none;
-                           color: black;
-                           padding: 5px;
-                           cursor: pointer;
-                           
-       }
-       button[onclick] {
-           background-color: #d966ff;
-                           border-radius: 2px;
-                           border:none;
-                           color: black;
-                           padding: 5px;
-                           cursor: pointer;
-       }
+                li{
+                    float: left;
+                }
+                
+                li a{
+                    display: block;
+                    color:black;
+                    text-align:center;
+                    padding: 16px 18px;
+                    text-decoration: none;
+                }
+                
+                li a:hover {
+                    background-color:#d966ff ;
+                }
+                .active {
+                    background-color: #d966ff;
+                }
+                input[type=text] {
+                                           border: 2px solid blue;
+                                           border-radius: 4px;
+                                           text-align:center;
+                }
+                input[type=email] {
+                                           border: 2px solid blue;
+                                           border-radius: 4px;
+                                           text-align:center;
+                }
+                input[type=password] {
+                                           border: 2px solid blue;
+                                           border-radius: 4px;
+                                           text-align:center;
+                }
+                 button[type=submit]:disabled {
+                                           background-color: grey;
+                                           border-radius: 2px;
+                                           border:none;
+                                           color: black;
+                                           padding: 5px;
+                                           cursor: pointer;
+                                           
+                       }
+                        button[type=submit]:enabled {
+                                           background-color: #42d7f4;
+                                           border-radius: 2px;
+                                           border:none;
+                                           color: black;
+                                           padding: 5px;
+                                           cursor: pointer;
+                                           
+                       }
+                       button[onclick] {
+                           background-color: #d966ff;
+                                           border-radius: 2px;
+                                           border:none;
+                                           color: black;
+                                           padding: 5px;
+                                           cursor: pointer;
+                       }
          </style>
          
          
@@ -103,8 +103,10 @@ input[type=password] {
     <body>
       <ul>
         <li><a href = "Ebus1.php">Home</a></li>
-        <li><a href ="../Interests/cloud_services.html">Cloud Services</a></li>
+        <li><a href ="../Interests/cloud_services.html">The Cloud Vendors</a></li>
+        <li><a href ="../cloud.html">Cloud Services</a></li>
         <li><a class = "active" href = "#PAYMENT">Payment Details</a></li>
+        <li style ="float:right"><a href ="../cloud_homepage.html">Cloud Home</a></li>
         </ul>
           <div id ="Logo2">
         <img src="https://logos.textgiraffe.com/logos/logo-name/Cloud-designstyle-cloud-m.png">
