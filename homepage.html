@@ -8,14 +8,17 @@
     <!-- Inline Css -->
         <style type  = "text/css">
         #mainheading {
-            position:relative;
             top:0em;
-            left:2.5em;
+            left:22em;
+            text-align:center;
+        }
+         #mainheading h1 {
+            text-align:center;
         }
         #mainheading img {
             position:relative;
-            top:0em;
-            left:-3.5em;
+            top:-1em;
+            left:-0em;
             
         }
             #content1{
@@ -27,22 +30,31 @@
                     margin-right:-280px;
                     position:absolute;
             }
+            #Heroku {
+                position:Absolute;
+                top:10em;
+                left:3em;
+            }
+            #Github {
+                position:absolute;
+                top:11em;
+                left:12em;
+            }
+            
        
-
             
             
             
         </style>
-    </head>
-    <body>
-        <div id = "mainheading">
+   </head>
+   <body>
+          <div id = "mainheading">
             <img src="https://fintechjobs.ie/img/college/ucc.png" alt="logo" style="float:right;width:110px;height:60px"/> 
             <h1>117404792- IS1113 Project</h1>
     
         </div>
-    
-    
-    <ul>
+
+<ul>
         <!-- Navbar -->
         <li><a class = "active" href = "#home">Home</a></li>
         <li><a href= "cv/cv_page1.html">Curriculum Vitae</a></li>
@@ -51,14 +63,15 @@
          <div class ="dropdown-content">
              <a href ="Interests/sports.html">Sports</a>
              <a href ="Interests/travel.html">Travel</a>
-             <a href ="../cloud.html"> Cloud Services</a>
+             <a href ="cloud.html"> Cloud Services</a>
          </div> 
         </li>
         <li class ="dropdown">
-            <a href ="Interests/cloud_services.html">Cloud</a>
+            <a href ="cloud_homepage.html">Cloud</a>
         <div class ="dropdown-content">
+            <a href="cloud_homepage.html">Coud Home</a>
             <a href ="Interests/cloud_services.html">The Cloud Vendors</a>
-            <a href ="../cloud.html">Cloud Services</a>
+            <a href ="cloud.html">Cloud Services</a>
         </div>
         </li>
         <li><a href = "eBusiness/Ebus_homepage.html">eBusiness</a></li>
@@ -70,13 +83,24 @@
                 <form method ="get" action="cv/cv_page1.html">
                     <button class="button"><span> Learn More</span></button>
                 </form>
-            
+       
             
         </div>
         
     </ul>
-    
-    <!-- Adding footer which includes social media icons and links to their respective websites -->
+
+<div id ="Heroku">
+    <a href ="https://dashboard.heroku.com/apps/is1113117404792/deploy/github">
+        <img src="https://dropboxdeveloperblog.files.wordpress.com/2014/11/heroku-logotype-vertical-purple1.png?w=650" alt ="Heroku" style ="height:120px;width:120px"></a>
+</div>
+<div id ="Github">
+    <a href="https://github.com/Aarondavin3/IS1113117404792">
+        <img src="http://www.stickpng.com/assets/images/5847f98fcef1014c0b5e48c0.png" alt ="Github" style ="height:80px;width:100px">
+    </a>
+</div>
+
+
+<!-- Adding footer which includes social media icons and links to their respective websites -->
  <footer>
     <br>
   <p>Find me on Social Media:</p> &copy;
@@ -89,7 +113,6 @@
   
   </p>
 </footer>
-
 </body>
 
 </html>

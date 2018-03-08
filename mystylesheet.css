@@ -1,23 +1,19 @@
- 
- html, body{
-     height: 100%;
-    margin-bottom:50px;
-
+ html,body {
+  height:100%;
+  margin-bottom: 50px;
  }
  html {
     background-image: url("https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
     background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
+    background-size: 100%;
+    margin:0;
+    padding:0;
+    max-width:2000px;
+    height:100%;
+    min-width:1000px;}
+h1 {
+    text-align:center;
 }
-
-
-h1{
-    text-align: center;
-    
-}
-
 p{
     color: white;
 }
@@ -124,10 +120,12 @@ li.dropdown {
   opacity: 1;
   right: 0;
 }
- /* Footer Css */
+
+
+/* Footer Css */
 footer{
     position: absolute;
-    top:119%;
+    top:142%;
     text-align:center;
     left: 0%;
     line-height: .8;
@@ -143,9 +141,10 @@ footer p{
     margin-top: 0;
 }
 
-@media only screen and (max-width:1280px){
+@media only screen and (max-width:1440px){
     footer{
         top:142%;
     }
-    
 }
+
+

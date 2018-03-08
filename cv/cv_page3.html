@@ -63,13 +63,30 @@
     </head>
     <body>
         <ul>
-        <li><a href = "../homepage.html">Home</a></li>
-        <li><a class= "active" href = "cv_page1.html">Curriculum Vitae</a></li>
-        <li><a href ="../Interests/sports.html">Interests</a></li>
-        <li><a href ="../Interests/travel.html">Travel</a></li>
+        <!-- Navbar -->
+        <li><a class = "active" href = "#home">Home</a></li>
+        <li><a href= "cv/cv_page1.html">Curriculum Vitae</a></li>
+        <li class = "dropdown">
+            <a href ="../Interests/Sports.html" class ="dropbtn">Interests</a>
+         <div class ="dropdown-content">
+             <a href ="Interests/sports.html">Sports</a>
+             <a href ="Interests/travel.html">Travel</a>
+             <a href ="../cloud.html"> Cloud Services</a>
+         </div> 
+        </li>
+        <li class ="dropdown">
+            <a href ="cloud_homepage.html">Cloud</a>
+        <div class ="dropdown-content">
+            <a href="../cloud_homepage.html">Coud Home</a>
+            <a href ="../Interests/cloud_services.html">The Cloud Vendors</a>
+            <a href ="../cloud.html">Cloud Services</a>
+        </div>
+        </li>
+        <li><a href = "../eBusiness/Ebus_homepage.html">eBusiness</a></li>
         </ul>
         
-          <h1><strong>Work Experience</strong></h1><hr/><br>
+          <h1><strong>Work Experience</strong></h1><hr/>
+          <br>
           
           <div id ="Clinic">
         <p><strong><i class="fa fa-briefcase"></i> 2015-Present: </strong> Part time Administration work at Clermont Clinic in Douglas. This invovlves handling patient's files and scanning them onto the computer database system. 

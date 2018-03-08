@@ -46,3 +46,27 @@ html {
   opacity: 1;
   right: 0;
 }
+footer{
+       position: absolute;
+       top:100%;
+       text-align:center;
+     left: 0%;
+    line-height: .8;
+    margin-top:0;
+    width:98.4%;
+    background-color: #e6e6e6;
+    padding:10px;
+    
+}
+    footer .button {
+                 background-color:black;
+                           border-radius: 10px;
+                           border:none;
+                           color: White;
+                           font-size:14pt;
+                           padding: 4px;
+                           cursor: pointer;
+                           width:15%;
+                           position:relative;
+                           left:-3em;
+            }
